@@ -1,0 +1,9 @@
+name: Repository Variables
+"on": push
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    env:
+      USER_NAME: ${{ vars.USER_NAME}}
+    steps:
+      - run: echo "${USER_NAME}"
