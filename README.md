@@ -29,3 +29,18 @@
 
 - [GitHub Actions でのシークレットの使用 - GitHub Docs](https://docs.github.com/ja/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
 - [Using secrets in GitHub Actions - GitHub Docs](https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions)
+
+## Literal
+
+- [リテラル](https://docs.github.com/ja/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#literals)
+- [Literals](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#literals)
+
+## Operators
+
+- [演算子](https://docs.github.com/ja/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#operators)
+- [Operators](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#operators)
+
+## Functions
+
+- [機能](https://docs.github.com/ja/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#functions)
+- [Functions](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/evaluate-expressions-in-workflows-and-actions#functions)
