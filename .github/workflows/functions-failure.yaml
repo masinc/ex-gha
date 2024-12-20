@@ -1,0 +1,10 @@
+name: Failure Functions
+"on": push
+jobs:
+  failure:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: exit 1
+      - run: echo "failure"
+        # failure() は、ステップが失敗した場合に true を返す
+        if: failure()
