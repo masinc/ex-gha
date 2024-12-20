@@ -1,7 +1,7 @@
 name: Contexts
-on: push
+"on": push
 jobs:
   print:
     runs-on: ubuntu:24.04
     steps:
-      - run: echo "github.actor = ${{ github.actor }}"
+      - run: echo "${{ github.actor }}"
