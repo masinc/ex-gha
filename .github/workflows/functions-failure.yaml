@@ -1,4 +1,4 @@
-name: Failure Functions
+name: Functions Failure
 "on": push
 jobs:
   failure:
