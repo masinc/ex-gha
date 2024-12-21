@@ -1,0 +1,11 @@
+name: Shareing GitHub Output
+"on": push
+jobs:
+  share:
+    runs-on: ubuntu-24.04
+    steps:
+      - id: src
+        run: echo "result=Hello" >> "${GITHUB_OUTPUT}"
+      - run: echo "${RESULT}"
+        env:
+          RESULT: ${{ steps.src.outputs.result }}
