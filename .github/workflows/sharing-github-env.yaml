@@ -1,0 +1,8 @@
+name: Sharing GitHub Environment Variables
+"on": push
+jobs:
+  share:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "RESULT=Hello" >> "${GITHUB_ENV}"
+      - run: echo "${RESULT}"
